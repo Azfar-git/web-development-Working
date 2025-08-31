@@ -1,0 +1,22 @@
+ID is a unique name for one specific HTML element, used only once per page.
+<p id="unique"></p>
+
+Class is a name used to group multiple elements with the same style.
+<p class="group class"></p>
+
+<p class="group class"></p>
+
+<p class="group class"></p>
+
+In CSS, we use # for ID and .(Dot) for Class.
+
+#unique{
+background-color:green;
+}
+.group{
+color:red;
+}
+.class{
+background-color: yellow;
+}
+Use ID for single items and Class for groups of similar items.
