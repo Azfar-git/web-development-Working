@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Exercise 5 - Design this Layout </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+       *{
+        margin: 0;
+        padding: 0;
+       }
+       :root{
+        --navBackgroundColor:yellow;
+        --navColor:rgb(7, 7, 20);
+        --cont1:rgb(181, 179, 127);
+        --cont2:green;
+        --sect1:rgb(49, 56, 18);
+       }
+       ul li a{
+            text-decoration: none;            
+            color: var(--navColor);
+            margin: 0 60px;
+        }
+        ul li {
+            list-style: none;
+        } 
+        ul{
+            display: flex;
+            padding: 20px 0 20px 234px;
+        }
+        header{
+            position: sticky;
+            top:0;
+        }
+        .navbar{
+            background-color: var(--navBackgroundColor);
+            height: 50px;
+
+        }
+        /* container 1 styling  */
+        .container1{
+            background-color:var(--cont1);
+            height: 500px;
+            /* border-radius: 10px; */
+            display: flex;
+        }
+        main{
+            display: inline-flex;
+        }
+        .section1{
+            background-color: var(--sect1);
+            height:370px ;
+            width: 490px;
+            margin: 70px;
+            border-radius: 10px;
+            
+        }
+        .container2{
+            background-color: var(--cont2);
+            height: 250px;
+            width: 980px;
+            text-align: center;
+            margin: 23px auto;
+            border-radius: 10px;
+            box-shadow: -5px 12px 15px 0px
+        }
+        .icon2 {
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+}
+
+.icon2 i {
+    color: #25D366;
+    font-size: 50px;
+}
+
+footer{
+    height: 45px;
+    background-color: var(--navBackgroundColor);
+}
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Catagory</a></li>
+                <li><a href="#">Contact Us</a></li>
+                
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container1">
+        <main>
+            <section class="section1">
+
+            </section>
+            <section class="section1">
+
+            </section>
+        </main>
+    </div>
+    <div class="container2">
+        <h2>Welcome to my 5th Exercise of Sigma Web Development By code with Harry</h2>
+    </div>
+    <div class="icon2">
+        <i class="fa-brands fa-whatsapp fa-5x"></i>
+    </div>
+    <footer>
+
+    </footer>
+</body>
+</html>
