@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 7 - Design the Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        /* .grid-container{
+            display: grid;
+            grid-template-columns: auto;
+            gap:6px;
+            
+        } */
+        .logo-line {
+            display: grid;
+            grid-template-columns: 70px auto;
+            padding: 23px;
+
+        }
+
+        .logo-line img {
+            border: 2px solid black;
+            border-radius: 50%;
+            height: 48px;
+
+        }
+
+        .logo-line p {
+            margin-top: 10px;
+        }
+
+        .logo-line p span {
+            color: rgb(77, 76, 76);
+        }
+
+        .card {
+            background-color: rgb(249, 247, 247);
+            height: 203px;
+            width: 282px;
+            border-radius: 5px;
+            text-align: center;
+
+        }
+
+        .card h3 {
+            margin: 20px 0 10px 0;
+        }
+
+        /* .grid-container > .card{
+            text-align: center;
+            
+        } */
+        .card h4 {
+            font-weight: 200;
+            font-size: 14px;
+        }
+
+        .btn {
+            background-color: rgb(92, 184, 92);
+            color: white;
+            border: none;
+            padding: 8px 23px;
+            border-radius: 5px;
+            margin: 19px;
+            cursor: pointer;
+        }
+
+        .tex p:nth-child(1) {
+            color: rgb(90, 91, 94);
+            font-size: 12px;
+        }
+
+        .tex p:nth-child(2) {
+            color: rgb(90, 91, 94);
+            font-size: 10px;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            /* cards ke beech mein space */
+            justify-content: center;
+            /* center mein lane ke liye */
+            margin: 0 120px;
+        }
+        @media screen and (max-width: 768px) {
+            .grid-container{
+                display: grid;
+                grid-template-columns: auto;
+            }
+            .logo-line {
+            display: grid;
+            grid-template-columns: auto;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <div class="logo-line">
+            <img src="UE_logo_icon_black-new.png" alt="UE LOGO">
+            <p>Download UltraEdit <span>v2025.1 (released 2025-10-10) | Latest changes</span></p>
+        </div>
+        <div class="grid-container">
+            <!-- <div class="grid-container"> -->
+            <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+            <!-- </div> -->
+                     <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+                    <div class="card">
+                <h3>English</h3>
+                <h4>Includes all languages</h4>
+                <input class="btn" type="submit" value="Download 64-bit">
+                <div class="tex">
+                    <p>sdlfsad</p>
+                    <p>asdfasdfsasdfsfasfdsfsadgdfgsdfgsdfgsdfgsdfg
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+</body>
+
+</html>
